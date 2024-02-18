@@ -7,8 +7,6 @@ h
 8StudentService/src/main/resources/application.properties,5/1/5106e8df7e016273db4b004172a551edf32e5d00
 y
 IDepartmentService/src/main/java/com/dep/DepartmentServiceApplication.java,5/0/501a37f1d60d45028d56a7014151638bb2ffe080
-t
-DStudentService/src/main/java/com.stud/StudentServiceApplication.java,e/c/ec9bca583741b558fde8f16ddf281c6c3ad6fd57
 i
 9StudentService/src/main/java/com/stud/entity/Student.java,9/7/97e6e7663c9fce37d2f5659b43b934fe139b609a
 w
@@ -19,3 +17,9 @@ w
 GStudentService/src/main/java/com/stud/repository/StudentRepository.java,2/4/24d4bdde73ff3cbabc29c8b617f083d8aa800c39
 ‰
 YServiceRegistry/src/main/java/com/service/ServiceRegistry/ServiceRegistryApplication.java,5/c/5c9dcaca06d035136ead9e5a9ff1e516ce19a886
+t
+DStudentService/src/main/java/com/stud/StudentServiceApplication.java,f/f/ff481cda5af3ad9faf59263cb0e79b54e43c651e
+Q
+!StudentService/StudentService.iml,1/f/1f2268cf07ab545293cb8caf706ce4395d150b4f
+W
+'DepartmentService/DepartmentService.iml,0/4/04488209ea433bcbe16d460d878a07d224bc2b78

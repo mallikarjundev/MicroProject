@@ -14,7 +14,8 @@ public class StudentService {
     Logger logger = LoggerFactory.getLogger(StudentService.class);
     @Autowired
     private StudentRepository studentRepository;
-    private String baseUrl = "http://localhost:8080/department/";
+//    private String baseUrl = "http://localhost:8080/department/";
+    private String baseUrl = "http://DEPARTMENTSERVICE:8080/department/";
     @Autowired
     private RestTemplate restTemplate;
     public Student saveStudent(Student student) {
