@@ -10,10 +10,12 @@
         <module name="StudentService" />
         <module name="DepartmentService" />
         <module name="ServiceRegistry" />
+        <module name="Gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DepartmentService" target="17" />
+      <module name="Gateway" target="1.5" />
       <module name="ServiceRegistry" target="17" />
       <module name="StudentService" target="17" />
     </bytecodeTargetLevel>
