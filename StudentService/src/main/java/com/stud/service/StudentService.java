@@ -2,6 +2,7 @@ package com.stud.service;
 
 import com.dep.entity.Department;
 import com.stud.entity.Student;
+import com.stud.exception.StudentNotFoundException;
 import com.stud.repository.StudentRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,11 +24,12 @@ public class StudentService {
     }
 
     public String getStudentWithDepartment(Long id) {
-        Student student = studentRepository.findById(id).get();
+//        Student student = studentRepository.findById(id).get();
+        Student student = studentRepository.findById(id).orElseThrow(()-> new StudentNotFoundException(id));
         Department department = restTemplate.getForObject(baseUrl+student.getDepartmentId(), Department.class);
         StringBuffer buffer = new StringBuffer();
         buffer.append("\n");
-        buffer.append(student.getStudentId()+" "+student.getFirstName()+" "+student.getLastName()+" "+student.getEmail());
+        buffer.append(student.getStudentId()+" "+student.getFirstName()+" "+student.getLastName()+" "+student.getEmail()+" "+student.getDepartmentId());
         buffer.append("\n");
         buffer.append(department.getDepartmentName()+" "+department.getDepartmentCode()+" "+department.getDepartmentAddress());
         logger.info("Student with department details:"+buffer.toString());

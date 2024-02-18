@@ -1,16 +1,15 @@
 
 y
-java:S2629!"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÒÕƒî8‰¦êñÛ1
+java:S2629#"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ÒÕƒî8•õøòÛ1
 e
-java:S2259 "HA "NullPointerException" could be thrown; "department" is nullable here.(ú˜¹8Â¦êñÛ1
-r
-java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ëôæıÿÿÿÿ8Â¦êñÛ1
+java:S2259""HA "NullPointerException" could be thrown; "department" is nullable here.(ú˜¹8öøòÛ1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Æ¦êñÛ1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8–öøòÛ1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Æ¦êñÛ1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8–öøòÛ1
 
-java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8Ë¦êñÛ1
-X	java:S125"<This block of commented-out lines of code should be removed.(¯›Ùë8Ñ¦êñÛ1
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8§öøòÛ1
+X	java:S125"<This block of commented-out lines of code should be removed.(¯›Ùë8¹öøòÛ1
+X	java:S125"<This block of commented-out lines of code should be removed.(ç¼¨İ8ÁöøòÛ1
 ^
-java:S3457!"AFormat specifiers should be used instead of string concatenation.(ÒÕƒî8×¦êñÛ1
+java:S3457#"AFormat specifiers should be used instead of string concatenation.(ÒÕƒî8ÈöøòÛ1
