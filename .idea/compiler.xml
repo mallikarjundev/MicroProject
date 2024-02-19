@@ -15,7 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DepartmentService" target="17" />
-      <module name="Gateway" target="1.5" />
+      <module name="Gateway" target="17" />
       <module name="ServiceRegistry" target="17" />
       <module name="StudentService" target="17" />
     </bytecodeTargetLevel>
@@ -23,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="DepartmentService" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
       <module name="ServiceRegistry" options="-parameters" />
       <module name="StudentService" options="-parameters" />
     </option>
